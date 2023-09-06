@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+    max-width: 600px;
+    padding-top: 15px;
+    border: #294dff;
+}
+
+.page-tittle{font-size: 1.5rem; color:#fff; margin:0.2rem 0;}
+.table>:not(caption)>*>* {padding: 0.2rem 0.5rem;}
+.clients-details .form-control {
+    border: none;
+    border-radius: 0px;
+    border-left: 1px solid #294dff;
+}
+.report-details .form-control, .manager-comment .form-control, footer .form-control {
+    border: none;
+    border-radius: 0px;
+}
+footer .form-control {
+	border-bottom: 1px solid #294dff;
+}
+.clients-details .form-control[type="date"]:last-child{border-left:none;}
+.clients-details span.input-group-text {
+    background: transparent;
+    border: none;
+}
+#S_Button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 4px 10px;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
